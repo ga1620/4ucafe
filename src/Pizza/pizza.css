@@ -1,0 +1,44 @@
+
+.button{
+    background:    #2C3335;
+border-radius: 3px;
+padding:       5px 14px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 18px/1 "Open Sans", sans-serif;
+text-align:    center;
+outline: none;
+font-weight: 100;
+}
+
+.buttonqunt{
+    border: 1px solid #e5e5e5;
+background: #ffffff;
+box-shadow: inset 3px 3px 2px 2px #e5e5e5, 
+            inset 3px 3px 2px 2px #e5e5e5;
+ color:#6a6d6e;
+border-radius: 3px;
+padding:       6px 25px;
+display:       inline-block;
+font:          normal bold 19px/1 "Open Sans", sans-serif;
+text-align:    center;    
+
+}
+
+.button:hover{
+    background: #2C3335;
+}
+
+.buttonqunt:hover{
+    background:#ffffff ;
+}
+
+.buttonadd{
+    background:    #eec213;
+border-radius: 4px;
+padding:       8px 36px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal bold 17px/1 "Open Sans", sans-serif;
+text-align:    center;
+}

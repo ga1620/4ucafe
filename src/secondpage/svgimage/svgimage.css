@@ -1,0 +1,57 @@
+
+.svgimage{
+    width:450px;
+    height:55vh;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .svgimage{
+        width:450px;
+        height:48vh;
+    }   
+    
+    
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .svgimage{
+      width:400px;
+      height:55vh;
+  }
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    .svgimage{
+        width:300px;
+        height:55vh;
+    }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .svgimage{
+        width:300px;
+        height:40vh;
+    }
+  
+}

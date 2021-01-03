@@ -1,0 +1,15 @@
+.mu-title .mu-subtitle {
+    font-size: 50px;
+    font-family: "Tangerine", cursive;
+    line-height: 30px;
+  }
+  
+  .mu-title h2 {
+    color: #000;
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  .col{
+      padding-top: 40px;
+  }

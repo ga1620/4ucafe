@@ -1,0 +1,162 @@
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+  margin: 0;
+}
+
+.paragraph{
+  padding-top: 40px;
+  font-size: 20px;
+  padding-bottom: 60px;
+}
+
+#mu-about-us {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+  }
+  
+  .mu-about-us-area {
+    display: inline;
+    float: left;
+    width: 100%;
+  }
+  
+  .mu-about-us-right {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-left: 15px;
+    width: 100%;
+  }
+  
+  .mu-about-us-right ul {
+    margin-bottom: 20px;
+    padding-left: 25px;
+  }
+  
+  .mu-about-us-right ul li {
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .mu-about-us-right ul li:before {
+    content: "\f0da";
+    font-family: fontAwesome;
+    margin-right: 10px;
+  }
+  
+  .mu-about-us-left {
+    display: inline;
+    float: left;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-right: 15px;
+    width: 100%;
+  }
+  
+  .mu-title {
+    display: inline;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .mu-title .mu-subtitle {
+    font-size: 50px;
+    font-family: "Tangernei", cursive;
+    line-height: 30px;
+  }
+  
+  .mu-title h2 {
+    color: #000;
+    font-size: 35px;
+    margin-bottom: 5px;
+  }
+
+  .image-fluid{
+    padding-bottom:70px;
+    width:90%;
+    height:70vh;
+
+  }
+  
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+    .paragraph{
+      padding-top: 10px;
+    }
+
+    .image-fluid{
+      padding-bottom:20vh;
+  
+    }
+
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .paragraph{
+      padding-top: 10px;
+    }
+    
+    .image-fluid{
+      padding-bottom:70px;
+  
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .paragraph{
+      padding-top: 10px;
+    }
+    
+    .image-fluid{
+      padding-bottom:40px;
+  
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .paragraph{
+      padding-top: 10px;
+    }
+
+    .image-fluid{
+      padding-bottom:10px;
+  
+    }
+    
+  }

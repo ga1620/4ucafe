@@ -1,0 +1,74 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+.cartcard{
+    position:fixed;
+
+}
+
+.buttoncart{
+  background:    #2C3335;;
+border-radius: 5px;
+padding:       0px 9px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal normal 25px/1 "Calibri", sans-serif;
+text-align:    center;
+}
+
+.buttoncart:hover{
+  background-color:  #2C3335;
+}
+
+.buttonquntcart{
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
+  box-shadow: inset 3px 3px 2px 2px #e5e5e5, 
+              inset 3px 3px 2px 2px #e5e5e5;
+   color:#6a6d6e;
+   border-radius: 3px;
+padding:       3px 15px;
+display:       inline-block;
+font:          normal bold 15px/1 "Open Sans", sans-serif;
+text-align:    center;
+}
+
+.buttonquntcart:hover{
+  background: #ffffff;
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .cartcard{
+        position: relative;;
+    
+    }
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .cartcard{
+        position: relative;;
+    
+    }
+    
+  }
